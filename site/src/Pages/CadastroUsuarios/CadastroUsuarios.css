@@ -1,0 +1,25 @@
+/* CadastroUsuarios.css */
+.classeCSS h1 {
+    color: #111111; /* Substitua isso pela cor desejada */
+    font-family: 'Graphik-Medium', sans-serif; /* Substitua 'Graphik-Medium' pelo nome correto da fonte e adicione uma fonte de fallback */
+    font-weight: bold; /* Torna o texto em negrito */
+    font-size: 48px; /* Define o tamanho da fonte */
+  }
+  
+  /* Aplicando uma cor e estilo de fonte ao h2 */
+  h2 {
+    color: #111111; /* Substitua isso pela cor desejada */
+    font-family: 'Graphik-Medium', sans-serif; /* Substitua 'Graphik-Medium' pelo nome correto da fonte e adicione uma fonte de fallback */
+    font-weight: bold; /* Torna o texto em negrito */
+    font-size: 24px; /* Define a espessura da fonte */
+  }
+  .divForm label {
+    margin-right: 10px; /* Adiciona margem à direita para o rótulo */
+    width: 100px; /* Define uma largura fixa para o rótulo (ajuste conforme necessário) */
+  }
+  
+  .divForm input {
+    flex: 1; /* Ocupa o espaço restante */
+    margin-left: 10px; /* Adiciona margem à esquerda para o campo de entrada */
+  }
+  

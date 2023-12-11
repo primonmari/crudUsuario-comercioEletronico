@@ -1,0 +1,47 @@
+.divForm {
+    display: flex; /* Use um contêiner flex para alinhar os elementos horizontalmente */
+    align-items: left; /* Alinhe os elementos verticalmente ao centro */
+    margin-bottom: 5px; /* Adiciona uma margem inferior ao contêiner */
+    width: 100%;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 300px;
+    margin: 0 auto;
+  }
+.largura{
+  margin-bottom: 10px;
+  text-align: left; /* Adiciona o alinhamento à esquerda para o texto das labels */
+  
+}
+
+.divForm input { 
+  width: 100px;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #A03EEA;
+  border-radius: 4px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  height: 40px; 
+}
+
+/* Estilo do botão de envio */
+form button {
+  background-color: #111111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+  form{
+    width: 500px;
+    
+  }
+  .divForm label {
+    color: #A03EEA;
+  }

@@ -1,0 +1,49 @@
+/* Tabela.css */
+
+/* Estilizando a tabela */
+table {
+    width: 500px;
+    border-collapse: collapse; /* remove borda única entre as células */
+    margin-top: 20px; /* Adiciona margem superior para separar a tabela de outros elementos */
+
+  }
+  /* Estilizando os cabeçalhos da tabela */
+  th {
+    padding: 8px; /* Adiciona espaço interno para o conteúdo dentro do cabeçalho */
+    background-color: #41046c; /* Adiciona uma cor de fundo leve ao cabeçalho */
+    color:#F5F5F5; 
+    font-family: 'Graphik-Regular', sans-serif; /* Substitua 'Graphik-Medium' pelo nome correto da fonte e adicione uma fonte de fallback */
+    font-size: 400; /* Define a espessura da fonte */
+  }
+  thead{
+ 
+    border-top-left-radius: 10px; /* Borda superior esquerda arredondada */
+    border-top-right-radius: 10px; /* Borda superior direita arredondada */
+    
+  }
+  /* Estilizando as células da tabela */
+  td {
+    padding: 8px; /* Adiciona espaço interno para o conteúdo dentro da célula */
+  }
+  
+  /* Estilizando as linhas pares da tabela */
+/* Estilizando as linhas pares da tabela */
+tr:nth-child(even) td {
+  background-color: #dddada; /* Adiciona uma cor de fundo leve para linhas pares */
+}
+
+/* Estilizando as linhas ímpares da tabela */
+tr:nth-child(odd) td {
+  background-color: #fff; /* Adiciona uma cor de fundo diferente para linhas ímpares, se desejar */
+}
+.buttonEstilizado {
+  background-color: #111111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 40px;
+}
